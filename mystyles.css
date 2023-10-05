@@ -4,3 +4,7 @@ div {
   border: 3px solid #00A4BD;
   padding: 5px;
 }
+
+p {
+  font-family: cursive;
+}
