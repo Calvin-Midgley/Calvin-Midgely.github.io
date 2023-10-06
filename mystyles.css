@@ -1,11 +1,14 @@
-h {
+#TheDiv1 {
   background-color: #EAF0F6;
   border: 3px solid #00A4BD;
+  width = 300px;
   font-family: cursive;
+  text-align: left;
 }
 
-p {
+#TheDiv2 {
   background-color: #FF0000;
   border: 3px solid #DD2222;
   font-family: cursive;
+  text-align: right;
 }
