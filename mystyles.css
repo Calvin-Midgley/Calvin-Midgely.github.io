@@ -4,6 +4,7 @@
   width: 800px;
   font-family: cursive;
   text-align: left;
+  float: left;
 }
 
 #theDiv2 {
@@ -12,4 +13,5 @@
   width: 300px;
   font-family: cursive;
   text-align: right;
+  float: right;
 }
