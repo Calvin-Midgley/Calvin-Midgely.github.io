@@ -1,17 +1,20 @@
 #theDiv1 {
-  background-color: #EAF0F6;
-  border: 3px solid #00A4BD;
-  width: 800px;
-  font-family: cursive;
-  text-align: left;
-  float: left;
+  background-color: #42454b;
+  border: 2px solid #27262b;
+  font-family: monospace;
+  text-align: center;
+  padding: 5px;
+  margin: -8px;
+  margin-bottom: 0px;
 }
 
 #theDiv2 {
-  background-color: #FF0000;
-  border: 3px solid #DD2222;
-  width: 300px;
-  font-family: cursive;
-  text-align: right;
-  float: right;
+  background-color: #42454b;
+  border: 2px solid #27262b;
+  font-family: monospace;
+  text-align: center;
+  padding: 5px;
+  margin: -8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
