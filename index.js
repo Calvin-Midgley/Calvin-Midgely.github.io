@@ -1,1 +1,1 @@
-document.getElementById("timer").textContent = document.URL;
+document.getElementById("timer").textContent = "hello";
