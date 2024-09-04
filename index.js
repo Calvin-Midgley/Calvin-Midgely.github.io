@@ -1,3 +1,3 @@
 window.onload = function() {
-  document.getElementById("timer").textContent = "hello";
+  document.getElementById("timer").textContent = document.URL;
 };
