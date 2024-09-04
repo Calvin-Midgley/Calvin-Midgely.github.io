@@ -6,6 +6,6 @@ window.onload = function() {
   setInterval(function() {
     let currentTime = Date();
     let difference = date-currentTime;
-    document.getElementById("timer").textContent = difference;
+    document.getElementById("timer").textContent = currentTime;
   }, 1000);
 };
