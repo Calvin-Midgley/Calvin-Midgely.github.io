@@ -1,7 +1,7 @@
 window.onload = function() {
   let params = new URLSearchParams(document.location.search);
-  let name = params.get("date");
-  let age = parseInt(params.get("title"), 10);
-  document.getElementById("url").textContent = name;
-  document.getElementById("timer").textContent = age;
+  let title = params.get("title");
+  let date = params.get("date");
+  document.getElementById("title").textContent = title;
+  document.getElementById("timer").textContent = date;
 };
