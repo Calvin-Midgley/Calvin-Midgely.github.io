@@ -1,3 +1,5 @@
 window.onload = function() {
-  document.getElementById("timer").textContent = document.URL;
+  var url_full = document.url;
+  var url_params = url_full.split("?")[1]
+  document.getElementById("timer").textContent = url_params;
 };
