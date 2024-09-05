@@ -5,6 +5,7 @@ window.onload = function() {
   document.getElementById("title").textContent = title;
   setInterval(function() {
     let difference = Math.abs(Date.now()-date.getTime());
-    document.getElementById("timer").textContent = "Current Time: " + Date() + "\nEnd Time: " + date + "\nDifference: " + difference;
+    document.getElementById("date").textContent = "Time Until " + date + ":";
+    document.getElementById("timer").textContent = difference + "ms";
   }, 1000);
 };
