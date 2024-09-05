@@ -12,6 +12,23 @@ window.onload = function() {
     let h = Math.floor((diff/3600000)%24);
     let d = Math.floor((diff/86400000)%365);
     let y = Math.floor(diff/31536000000);
-    document.getElementById("timer").textContent = y + "years, " + d + "days, " + h + "hours, " + m + "minutes, " + s + "seconds, " + ms + "milliseconds";
+    let output = ""
+    if (y > 0) {
+      output = output + y + " years, ";
+    }
+    if (d > 0) {
+      output = output + d + " days, ";
+    }
+    if (h > 0) {
+      output = output + h + " hours, ";
+    }
+    if (m > 0) {
+      output = output + m + " minutes, ";
+    }
+    if (s > 0) {
+      output = output + s + " seconds, ";
+    }
+    output = output + ms + "milliseconds";
+    document.getElementById("timer").textContent = output;
   }, 1000);
 };
