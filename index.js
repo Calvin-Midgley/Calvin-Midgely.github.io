@@ -41,7 +41,7 @@ window.onload = function() {
     if (shows) {
       output = output + s.toString().padStart(2,'0') + " seconds, ";
     }
-    output = output + ms.toString().padStart(4,'0') + "milliseconds";
+    output = output + ms.toString().padStart(3,'0') + "milliseconds";
     document.getElementById("timer").textContent = output;
   }, 3);
 };
