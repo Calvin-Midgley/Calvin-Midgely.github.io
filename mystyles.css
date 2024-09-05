@@ -1,26 +1,32 @@
 * {
-  background-color: #151c2a
+  background-color: #151c2a;
 }
 
 #title {
   background-color: #42454b;
   border: 2px solid #27262b;
   font-family: monospace;
-  font-size: 32px;
+  font-size: 12vh;
   color: #ffffff;
   text-align: center;
   padding: 5px;
   margin: -8px;
   margin-bottom: 0px;
+  height:15vh;
+}
+
+#timerbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 85vh;
+  border: 1px solid black;
+  margin: -8px;
 }
 
 p {
   font-family: monospace;
-  font-size: 14px;
+  font-size: 5vh;
   color: #ffffff;
-  text-align: center;
-  padding: 5px;
-  margin: -8px;
-  margin-top: 2px;
-  margin-bottom: 2px;
 }
