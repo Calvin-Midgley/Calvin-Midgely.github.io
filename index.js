@@ -30,5 +30,5 @@ window.onload = function() {
     }
     output = output + ms + "milliseconds";
     document.getElementById("timer").textContent = output;
-  }, 1000);
+  }, 3);
 };
