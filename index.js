@@ -1,7 +1,7 @@
 window.onload = function() {
   let params = new URLSearchParams(document.location.search);
   let title = params.get("title");
-  let date = Date(params.get("date"));
+  let date = new Date(params.get("date"));
   document.getElementById("title").textContent = title;
   setInterval(function() {
     let difference = Math.abs(Date.now()-date.getTime());
