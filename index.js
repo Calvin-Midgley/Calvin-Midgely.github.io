@@ -23,12 +23,12 @@ window.onload = function() {
       output = output + h + " hours, ";
     }
     if (m > 0) {
-      output = output + m + " minutes, ";
+      output = output + m.padStart(2,'0') + " minutes, ";
     }
     if (s > 0) {
-      output = output + s + " seconds, ";
+      output = output + s.padStart(2,'0') + " seconds, ";
     }
-    output = output + ms + "milliseconds";
+    output = output + ms.padStart(4,'0') + "milliseconds";
     document.getElementById("timer").textContent = output;
   }, 3);
 };
